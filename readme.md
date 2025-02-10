@@ -1,0 +1,1 @@
+I am obsessed with [these paperian memopads](https://www.thejournalshop.com/products/paperian-make-a-memo-memopad-24-styles?variant=44054103523562) so I made this lil demo of a movie review. Maybe I'll use it on my site, who knows.
