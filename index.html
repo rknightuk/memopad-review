@@ -3,7 +3,7 @@
         <title>Paperian Memopad Review Demo</title>
         
         <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=homemade-apple:400|pt-sans-narrow:400,700" rel="stylesheet" />
+        <link href="https://fonts.bunny.net/css?family=pt-sans-narrow:400,700" rel="stylesheet" />
 
         <script type="module" src="./hypercard.js"></script>
 
@@ -21,11 +21,13 @@
 
             body {
                 font-family: 'PT Sans Narrow', sans-serif;
+                flex-direction: column;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 color: #445d80;
                 font-size: 0.9em;
+                margin-top: 100px;
             }
 
             hyper-card {
@@ -75,6 +77,10 @@
             .review {
                 font-size: 1.3em;
             }
+
+            footer {
+                text-transform: lowercase;
+            }
         </style>
     </head>
     <body>
@@ -105,5 +111,11 @@
             </div>
         </div>
         </hyper-card>
+
+        <footer style="text-align: center;">
+            <p>a <a href="https://rknight.me">robb knight</a> curio
+                <br>
+                made with <a href="https://fonts.bunny.net/family/pt-sans-narrow">PT Sans Narrow</a> & Robb Knight Sans</p>
+        </footer>
     </body>
 </html> 
